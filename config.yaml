@@ -1,3 +1,29 @@
 baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+title: Nguyen Thanh Tan 
+theme: Eclectic 
+author:  
+  name: "Nguyễn Thanh Tân"
+  email: "tan.personal.mail@gmail.com"
+menu:
+  main: 
+    - identifier: Về Tân 
+      name: About 
+      url: /about 
+      weight: 100 
+    - identifier: Liên hệ 
+      name: Contact 
+      url: /contact 
+      weight: 200 
+params: 
+  color: "#4f46e5"
+  footer:
+  - title: About
+    content: >
+      Đây là blog cá nhân của Tân, nơi Tân chia sẻ về các nội dung hay ho *khụ khụ*.
+
+
+  - title: Các bài viết gần đây
+    recents: blog
+    recentCount: 7
+  - title: Liên hệ với tôi
+    contact: true
